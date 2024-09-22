@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playpen Sans', cursive;
+    font-optical-sizing: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+  
+
+.hidden {
+    display: none;
+}
+
+.greeting {
+    font-family:"Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.login-form-div {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.login-form {
+    input {
+        width: 350px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #000000;
+        color: white;
+        font-family:"Playpen Sans", cursive;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        outline: none;
+        
+    }
+    button {
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        background-color: #000000;
+        color: white;
+        font-family:"Playpen Sans", cursive;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        cursor: pointer;
+    }
+}
+
+.content-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-family:"Playpen Sans", cursive;
+    font-weight: 100;
+    font-size: 6rem;
+    height: 100%;
+}
+
+.clock-div {
+    opacity: 0.5;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.clock {
+    text-align: center;
+}
+
+.todo-div {
+    width: 100%;
+  
+  
+}
+.todo-ul {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    overflow-y: scroll;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    ul {
+        margin-top: 1rem;
+        width: 80%;
+        list-style-type: none;
+
+    }
+    li{
+        margin-bottom: 10px;
+        font-size: 1rem;
+        color: #ffffff;
+        span {
+            margin-right: 10px;
+        }
+        button {
+            font-size: 0.7rem;
+            background-color: #ffffff;
+            border: none;
+            text-align: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+    }
+}
+
+.todo-form {
+    display: flex;
+    justify-content: center;
+    input {
+        width: 80%;
+        background-color: #ffffff ;
+        border: none;
+        outline: none;
+        padding: 10px 10px;
+        border-radius: 100px;
+        opacity: 0.5;
+        margin-top: 3rem;
+    }
+}
